@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage</title>
+    <title>Level-3 Simple Webpage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -44,14 +44,14 @@
    </div>
 
    <div class="main">
-    <h1>Responsive Card Grid Layout</h1>
+    <!-- <h1>Responsive Card Grid Layout</h1> -->
     <ul class="cards">
       <li class="cards_item">
         <div class="card">
           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h2 class="card_title">Card Title</h2>
+            <p class="card_text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             <button class="btn card_btn">Read More</button>
           </div>
         </div>
@@ -60,8 +60,8 @@
         <div class="card">
           <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h2 class="card_title">Card Title</h2>
+            <p class="card_text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             <button class="btn card_btn">Read More</button>
           </div>
         </div>
@@ -70,8 +70,8 @@
         <div class="card">
           <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h2 class="card_title">Card Title</h2>
+            <p class="card_text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             <button class="btn card_btn">Read More</button>
           </div>
         </div>
@@ -80,8 +80,8 @@
         <div class="card">
           <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h2 class="card_title">Card Title</h2>
+            <p class="card_text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             <button class="btn card_btn">Read More</button>
           </div>
         </div>
@@ -90,8 +90,8 @@
         <div class="card">
           <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h2 class="card_title">Card Title</h2>
+            <p class="card_text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             <button class="btn card_btn">Read More</button>
           </div>
         </div>
@@ -100,8 +100,8 @@
         <div class="card">
           <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
           <div class="card_content">
-            <h2 class="card_title">Card Grid Layout</h2>
-            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <h2 class="card_title">Card Title</h2>
+            <p class="card_text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             <button class="btn card_btn">Read More</button>
           </div>
         </div>
@@ -123,7 +123,47 @@
         </div>
     </div>
 
-<br>
+    <div class="gallery">
+      <img src="example1.jpg" alt="Thumbnail" onclick="showFullSize(this)">
+      <img src="example2.jpg" alt="Thumbnail" onclick="showFullSize(this)">
+      <img src="example3.jpg" alt="Thumbnail" onclick="showFullSize(this)">
+    </div>
+    <div class="full-size" id="fullSize" onclick="hideFullSize()">
+      <img id="fullSizeImage" src="" alt="Full Size">
+    </div>
+
+
+    <div class="slideshow">
+      <div class="slides">
+          <img src="slide1.jpg" alt="Slide 1">
+          <img src="slide2.jpg" alt="Slide 2">
+          <img src="slide3.jpg" alt="Slide 3">
+          <img src="slide4.jpg" alt="Slide 4">
+          <img src="slide5.jpg" alt="Slide 5">
+      </div>
+  </div>
+
+
+  
+<div class="slideshow">
+  <div class="slide fade">
+      <img src="slide1.jpg" alt="Slide 1">
+  </div>
+  <div class="slide fade">
+      <img src="slide2.jpg" alt="Slide 2">
+  </div>
+  <div class="slide fade">
+      <img src="slide3.jpg" alt="Slide 3">
+  </div>
+  <div class="slide fade">
+    <img src="slide34.jpg" alt="Slide 4">
+</div>
+<div class="slide fade">
+  <img src="slide35.jpg" alt="Slide 5">
+</div>
+</div>
+
+
 <nav>
     <button class="menu-toggle">Menu</button>
     <ul class="nav-list">
@@ -132,6 +172,7 @@
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
+
 
 
 
